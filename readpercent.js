@@ -23,7 +23,7 @@
                 receiver: receiver,
                 container: content
             }, function (e) {
-                percent = get_percent(e.data.container);
+                percent = limit_percent(get_percent(e.data.container));
                 if (bar) { // Change width percent of an element
                     $(receiver + ' ' + bar).css('width', percent + '%');
                 } else { // Fill HTML5 Progress Element
