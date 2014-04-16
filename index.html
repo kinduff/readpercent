@@ -106,12 +106,18 @@
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 <div id="track">
   <div class="bar"></div>
+  <p id="percent">0%</p>
 </div>
 
 <script>
+  percent = $("#percent");
   window.onload = function(){
     $("#content").readpercent('#track', '.bar');
   }
+  $(window).scroll(function(){
+    porciento = $("#content").readpercent(true);
+    percent.text(porciento+'%');
+  });
 </script>    
   </body>
 </html>
