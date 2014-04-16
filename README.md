@@ -5,6 +5,10 @@ readpercent.js
 
 This is a jQuery plugin that offers an easy way to show reading progress to your users. There are a few ways to get the percentage value. Make sure to checkout the demo inside this page.
 
+## Demo
+
+[Check it out](http://kinduff.github.io/readpercent/).
+
 ## Install
 
 Make sure to include jQuery in your page.
