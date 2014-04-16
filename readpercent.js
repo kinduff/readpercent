@@ -1,6 +1,6 @@
 (function ($) {
     function get_percent(container) {
-        var posTop = $(window).scrollTop() - $(container).offset().top;
+        var posTop = $(window).scrollTop() - ($(container).offset().top - $(window).height());
         var percent = (posTop * 100) / $(container).height();
         return percent;
     }
