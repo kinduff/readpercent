@@ -10,7 +10,7 @@
         percent = (percent >= 100) ? 100 : percent;
         return percent;
     }
-    $.fn.readPercent = function (receiver, bar) {
+    $.fn.readpercent = function (receiver, bar) {
         var content = this.selector, percent;
         if (! receiver) { // Get raw percent (0-100)
             percent = limit_percent(get_percent(content));

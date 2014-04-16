@@ -18,13 +18,13 @@ Works as a normal jQuery plugin.
 ### Get raw percent (0-100)
 
 ```javascript
-$('#content').readPercent();
+$('#content').readpercent();
 ```
 
 ### Get rounded percent (0-100)
 
 ```javascript
-$('#content').readPercent(true);
+$('#content').readpercent(true);
 ```
 
 I recommend you to append the previous methods to a `$(window).scroll` event to get live data.
@@ -32,11 +32,11 @@ I recommend you to append the previous methods to a `$(window).scroll` event to 
 ### Fill HTML5 Progress Element
 
 ```javascript
-$("#content").readPercent('#progress');
+$("#content").readpercent('#progress');
 ```
 
 ### Change width (%) of an element
 
 ```javascript
-$("#content").readPercent('#container', '.bar');
+$("#content").readpercent('#container', '.bar');
 ```
