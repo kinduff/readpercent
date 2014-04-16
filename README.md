@@ -1,14 +1,22 @@
 readpercent.js
 ===========
 
-Simple jQuery plugin to get the percent of a div scrolled inside the viewport. 
+## Welcome
+
+This is a jQuery plugin that offers an easy way to show reading progress to your users. There are a few ways to get the percentage value. Make sure to checkout the demo inside this page.
 
 ## Install
 
-Include `readpercent.js` or `readpercent-min.js` in your page.
+Make sure to include jQuery in your page.
 
 ```html
-<script src="readpercent-min.js"></script>
+<script src="jquery.min.js"></script>
+```
+
+And then include **readpercent.js**
+
+```html
+<script src="js/readpercent-min.js"></script>
 ```
 
 ## Usage
