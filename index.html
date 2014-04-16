@@ -19,6 +19,14 @@
 
   </head>
   <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=56175164971";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
       <div id="header">
         <nav>
           <li class="fork"><a href="https://github.com/kinduff/readpercent">View On GitHub</a></li>
@@ -82,8 +90,6 @@
 <div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s2">"#content"</span><span class="p">).</span><span class="nx">readpercent</span><span class="p">(</span><span class="s1">'#progress'</span><span class="p">);</span>
 </pre></div>
 
-<p class="demo">Output: <progress max="100" value="0" id="progress"></progress></p>
-
 <h3>
 <a name="change-width--of-an-element" class="anchor" href="#change-width--of-an-element"><span class="octicon octicon-link"></span></a>Change width (%) of an element</h3>
 
@@ -113,6 +119,10 @@
 
   <p>Signs won&#39;t, morning that, doesn&#39;t third fowl female in moveth. <em>Meat</em> make bearing bearing to in sixth in brought fruit, subdue their him his gathered gathered, two wherein, he you tree you&#39;re great gathering. Man, beast and one. Living herb shall to may creeping. Blessed had own. Fruitful won&#39;t after beast dominion day without all creepeth. Forth they&#39;re. Were can&#39;t second sixth green also, their tree creeping very so <em>bring</em> signs years <strong>under</strong> grass midst open face.</p>
 </div>
+
+<h2>Share</h2>
+<div class="fb-share-button" data-href="http://kinduff.github.io/readpercent/" data-width="107" data-type="button_count"></div>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://kinduff.github.io/readpercent/" data-text="readpercent.js" data-via="kinduff" data-related="kinduff">Tweet</a>
       </section>
       <div class="note">
           <span class="credits left">Project maintained by <a href="https://github.com/kinduff">kinduff</a></span>
@@ -124,7 +134,7 @@
   <div class="bar"></div>
   <p id="percent">0%</p>
 </div>
-
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <script>
   var percent = $("#percent");
   var page = $("#page");
