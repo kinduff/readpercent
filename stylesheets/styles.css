@@ -899,3 +899,6 @@ section #title .credits.right {
 #content, #percent {
   display: none;
 }
+.fb-share-button {
+  vertical-align: top;
+}
