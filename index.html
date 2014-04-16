@@ -30,7 +30,7 @@
 
     <div class="wrapper">
 
-      <section>
+      <section id="page">
         <div id="title">
           <h1>readpercent.js</h1>
           <p>Simple jQuery plugin to get the percent of a div scrolled inside the viewport. </p>
@@ -65,11 +65,14 @@
 <div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'#content'</span><span class="p">).</span><span class="nx">readpercent</span><span class="p">();</span>
 </pre></div>
 
+<p class="demo" id="demo1">Output: <span>0</span></p>
+
 <h3>
 <a name="get-rounded-percent-0-100" class="anchor" href="#get-rounded-percent-0-100"><span class="octicon octicon-link"></span></a>Get rounded percent (0-100)</h3>
 
 <div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'#content'</span><span class="p">).</span><span class="nx">readpercent</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
 </pre></div>
+<p class="demo" id="demo2">Output: <span>0</span></p>
 
 <p>I recommend you to append the previous methods to a <code>$(window).scroll</code> event to get live data.</p>
 
@@ -79,13 +82,16 @@
 <div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s2">"#content"</span><span class="p">).</span><span class="nx">readpercent</span><span class="p">(</span><span class="s1">'#progress'</span><span class="p">);</span>
 </pre></div>
 
+<p class="demo">Output: <progress max="100" value="0" id="progress"></progress></p>
+
 <h3>
 <a name="change-width--of-an-element" class="anchor" href="#change-width--of-an-element"><span class="octicon octicon-link"></span></a>Change width (%) of an element</h3>
 
 <div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s2">"#content"</span><span class="p">).</span><span class="nx">readpercent</span><span class="p">(</span><span class="s1">'#container'</span><span class="p">,</span> <span class="s1">'.bar'</span><span class="p">);</span>
 </pre></div>
-<h2>Demo</h2>
+<p><a href="javascript:;" id="show_demo">View Demo</a></p>
 <div id="content">
+  <h2>Demo</h2>
   <h3>Moving likeness his dominion a days creeping</h3>
   <p>Let their darkness was face midst. Give subdue in Fifth, divided fifth darkness seed sea which sea over second them tree male fowl sea hath creeping, place all can&#39;t. After <em>firmament</em> after female have whales own dominion, whales own made female set morning lesser image our, their evening their third them also there had given open our female bring. Divide <em>it</em> <em>be</em> whose firmament have that days, cattle days.</p>
 
@@ -96,6 +102,16 @@
   <p>The greater and spirit male. Over. Brought moved. Own lights their set night saying darkness lesser itself male, green days the. Days years you&#39;re greater day <em>to</em> moved you&#39;ll you i light that stars light fill Hath earth wherein void you&#39;ll multiply kind was which divided. Second for is seasons. Abundantly were blessed waters It which. Days herb seed. Unto, the replenish divide winged tree. Female likeness divided itself behold them living behold multiply years you&#39;re that unto living gathering bring. Saw after for you us was stars thing us. One given called face. They&#39;re waters beast moveth kind you&#39;ll was heaven. Kind their a thing beast fourth that given set. Without set first.</p>
 
   <p>Male you&#39;ll signs <em>for</em> blessed. Green, in whose <em>Land</em> day unto sixth forth it fifth us two fish <strong>there</strong> forth stars <em>herb</em> yielding cattle moveth fowl fifth waters good made their shall whose isn&#39;t two face, midst gathering said us. His heaven beginning first years. Air living male blessed thing <em>image</em> behold he image whose deep bring without. They&#39;re made were it earth years the Whales male <em>abundantly</em> him fill <strong>stars</strong> give gathering sixth moveth fill, from herb subdue stars light all lights days Seed air day wherein. Seasons. Give, brought. Night cattle fill. Deep wherein to fruitful lesser fly which our fly. Wherein his stars lesser, <em>blessed</em> third day set had evening they&#39;re.</p>
+  <h3>Moving likeness his dominion a days creeping</h3>
+  <p>Let their darkness was face midst. Give subdue in Fifth, divided fifth darkness seed sea which sea over second them tree male fowl sea hath creeping, place all can&#39;t. After <em>firmament</em> after female have whales own dominion, whales own made female set morning lesser image our, their evening their third them also there had given open our female bring. Divide <em>it</em> <em>be</em> whose firmament have that days, cattle days.</p>
+
+  <h3>Upon divide</h3>
+  <p>Signs won&#39;t, morning that, doesn&#39;t third fowl female in moveth. <em>Meat</em> make bearing bearing to in sixth in brought fruit, subdue their him his gathered gathered, two wherein, he you tree you&#39;re great gathering. Man, beast and one. Living herb shall to may creeping. Blessed had own. Fruitful won&#39;t after beast dominion day without all creepeth. Forth they&#39;re. Were can&#39;t second sixth green also, their tree creeping very so <em>bring</em> signs years <strong>under</strong> grass midst open face.</p>
+
+  <h3>Living And Winged Dry To There</h3>
+  <p>The greater and spirit male. Over. Brought moved. Own lights their set night saying darkness lesser itself male, green days the. Days years you&#39;re greater day <em>to</em> moved you&#39;ll you i light that stars light fill Hath earth wherein void you&#39;ll multiply kind was which divided. Second for is seasons. Abundantly were blessed waters It which. Days herb seed. Unto, the replenish divide winged tree. Female likeness divided itself behold them living behold multiply years you&#39;re that unto living gathering bring. Saw after for you us was stars thing us. One given called face. They&#39;re waters beast moveth kind you&#39;ll was heaven. Kind their a thing beast fourth that given set. Without set first.</p>
+
+  <p>Signs won&#39;t, morning that, doesn&#39;t third fowl female in moveth. <em>Meat</em> make bearing bearing to in sixth in brought fruit, subdue their him his gathered gathered, two wherein, he you tree you&#39;re great gathering. Man, beast and one. Living herb shall to may creeping. Blessed had own. Fruitful won&#39;t after beast dominion day without all creepeth. Forth they&#39;re. Were can&#39;t second sixth green also, their tree creeping very so <em>bring</em> signs years <strong>under</strong> grass midst open face.</p>
 </div>
       </section>
       <div class="note">
@@ -110,13 +126,30 @@
 </div>
 
 <script>
-  percent = $("#percent");
-  window.onload = function(){
-    $("#content").readpercent('#track', '.bar');
-  }
+  var percent = $("#percent");
+  var page = $("#page");
+  var content = $("#content");
+
+  trigger = false;
+  $("#show_demo").on("click", function(){
+    trigger = true;
+    content.show();
+    percent.show();
+    content.readpercent('#track', '.bar');
+  });
   $(window).scroll(function(){
-    porciento = $("#content").readpercent(true);
-    percent.text(porciento+'%');
+    porciento = content.readpercent(true);
+    if (trigger) percent.text(porciento+'%');
+
+    // Demo 1
+    demo1 = page.readpercent();
+    $("#demo1 span").text(demo1);
+    // Demo 2
+    demo2 = page.readpercent(true);
+    $("#demo2 span").text(demo2);
+    // Demo 3
+    page.readpercent('#progress');
+
   });
 </script>    
   </body>
