@@ -851,3 +851,19 @@ section #title .credits.right {
     display: none;
   }
 }
+#track {
+  width: 100%;
+  height: 5px;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+#track .bar {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+}
