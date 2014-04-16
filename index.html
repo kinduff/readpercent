@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>readpercent.js by kinduff</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/kinduff/readpercent">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/kinduff/readpercent/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/kinduff/readpercent/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>readpercent.js</h1>
+          <p>Simple jQuery plugin to get the percent of a div scrolled inside the viewport. </p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/kinduff">kinduff</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h2>
+<a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome</h2>
+
+<p>This is a jQuery plugin that offers an easy way to show reading progress to your users. There are a few ways to get the percentage value. Make sure to checkout the demo inside this page. </p>
+
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<p>Include <code>readpercent.js</code> or <code>readpercent-min.js</code> in your page.</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"readpercent-min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Works as a normal jQuery plugin. </p>
+
+<h3>
+<a name="get-raw-percent-0-100" class="anchor" href="#get-raw-percent-0-100"><span class="octicon octicon-link"></span></a>Get raw percent (0-100)</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'#content'</span><span class="p">).</span><span class="nx">readPercent</span><span class="p">();</span>
+</pre></div>
+
+<h3>
+<a name="get-rounded-percent-0-100" class="anchor" href="#get-rounded-percent-0-100"><span class="octicon octicon-link"></span></a>Get rounded percent (0-100)</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'#content'</span><span class="p">).</span><span class="nx">readPercent</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+</pre></div>
+
+<p>I recommend you to append the previous methods to a <code>$(window).scroll</code> event to get live data.</p>
+
+<h3>
+<a name="fill-html5-progress-element" class="anchor" href="#fill-html5-progress-element"><span class="octicon octicon-link"></span></a>Fill HTML5 Progress Element</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s2">"#content"</span><span class="p">).</span><span class="nx">readPercent</span><span class="p">(</span><span class="s1">'#progress'</span><span class="p">);</span>
+</pre></div>
+
+<h3>
+<a name="change-width--of-an-element" class="anchor" href="#change-width--of-an-element"><span class="octicon octicon-link"></span></a>Change width (%) of an element</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s2">"#content"</span><span class="p">).</span><span class="nx">readPercent</span><span class="p">(</span><span class="s1">'#container'</span><span class="p">,</span> <span class="s1">'.bar'</span><span class="p">);</span>
+</pre></div>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
