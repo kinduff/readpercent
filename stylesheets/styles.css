@@ -853,26 +853,34 @@ section #title .credits.right {
 }
 #track {
   width: 100%;
-  height: 7px;
+  height: 5px;
   background-color: transparent;
   position: fixed;
   top: 0;
   left: 0;
 }
 #track .bar {
-  background-color: white;
   position: absolute;
   top: 0;
   left: 0;
   width: 0%;
-  height: 7px;
-  -webkit-box-shadow: 0px 0px 5px 0px #FFF;
-  -moz-box-shadow:    0px 0px 5px 0px #FFF;
-  box-shadow:         0px 0px 5px 0px #FFF;
+  height: 100%;
+  overflow: hidden;
+}
+#track .bar .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(left,#d8225e,#b73794,#7254b6,#3981d1,#3bbfee);
+  background-image: -moz-linear-gradient(left,#d8225e,#b73794,#7254b6,#3981d1,#3bbfee);
+  background-image: -o-linear-gradient(left,#d8225e,#b73794,#7254b6,#3981d1,#3bbfee);
+  background-image: linear-gradient(to right,#d8225e,#b73794,#7254b6,#3981d1,#3bbfee);
 }
 #track #percent {
   position: absolute;
-  top: 7px;
+  top: 5px;
   left: 3px;
 }
 .demo {
